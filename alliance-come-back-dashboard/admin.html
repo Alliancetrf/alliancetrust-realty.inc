@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard - Alliance</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6">
+    <h2 class="text-2xl font-bold mb-6">Admin Dashboard</h2>
+    <table class="table-auto w-full bg-white rounded shadow">
+        <thead>
+            <tr class="bg-gray-200">
+                <th class="px-4 py-2">Investor</th>
+                <th class="px-4 py-2">Email</th>
+                <th class="px-4 py-2">KYC Status</th>
+                <th class="px-4 py-2">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="border px-4 py-2">John Doe</td>
+                <td class="border px-4 py-2">john@example.com</td>
+                <td class="border px-4 py-2 text-yellow-600">Pending</td>
+                <td class="border px-4 py-2"><button class="bg-green-500 text-white px-2 py-1 rounded">Approve</button></td>
+            </tr>
+            <tr>
+                <td class="border px-4 py-2">Jane Smith</td>
+                <td class="border px-4 py-2">jane@example.com</td>
+                <td class="border px-4 py-2 text-green-600">Verified</td>
+                <td class="border px-4 py-2"><button class="bg-red-500 text-white px-2 py-1 rounded">Reject</button></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
